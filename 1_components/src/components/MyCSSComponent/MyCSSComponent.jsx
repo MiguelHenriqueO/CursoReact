@@ -1,0 +1,20 @@
+import React from 'react'
+import styles from './MyCSSComponent.module.css' 
+
+const MyCSSComponent = () => {
+    
+    const cssInLine = {
+        color:"#f00",
+        fontSize: "20px",
+        backgroundColor: "#000"
+    }
+  
+    return (
+        <>
+            <h1 className={styles.title}>Meu Título</h1>
+            <p style={cssInLine}>Meu parágrafo</p>
+        </>
+    )
+}
+
+export default MyCSSComponent
